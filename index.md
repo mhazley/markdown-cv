@@ -4,17 +4,16 @@ title: Matt Hazley's CV
 ---
 # Matt Hazley
 <br>
-Senior Embedded Engineer specialising in IoT Prototyping
+Associate Principal Engineer specialising in IoT Product Development
 <div id="webaddress">
 <a href="hello@matthazley.com">hello@matthazley.com</a>
-| <a href="http://matthazley.com">matthazley.com</a>
 | <a href="https://github.com/mhazley">github.com/mhazley</a>
 </div>
 
 
 ## Modus Operandi
 
-I am a confident Embedded Engineer specialising in IoT prototyping and development. I get excited when working with products at conception but also possess the experience and skill to move from prototype to production, considering the full spectrum of requirements from Firmware right through to HMI and UX. I am equally comfortable deep in the code, motivating and directing a team or standing in front of a customer. This is backed up by 11 years of technical experience in small teams, with recent examples of leading, mentoring and overall product ownership.
+I am a confident Engineer specialising in IoT product development. I get excited when working with products at conception but also possess the experience and skill to move from prototype to production, considering the full spectrum of product requirements from Firmware, to App & Cloud and right through to HMI and UX. I am equally comfortable deep in the code, developing requirements, motivating and directing a team or standing in front of a customer. This is backed up by 12 years of technical experience in small teams, with recent examples of leading, mentoring and overall product ownership.
 
 ## Education
 
@@ -32,27 +31,30 @@ OpenFX Award for Engineering Software Excellence, *EEECS Faculty, Queen's Univer
 ## Tool Box
 
 `Programming`
-C, Python, C++ (some!)
-<br>
+C, Python, C++ (some!), Go (learning!)
+<br><br>
 `Technologies`
-UART/SPI/I2C, TCP/UDP, RTOS(µC, FreeRTOS), M2M(MQTT/CoAP), Protocol Design & Implementation, Wi-Fi Connectivity, Bluetooth Low Energy, Mesh Technologies(Bluetooth Mesh, Thread), Smart-Home, Low Power Design, Multi-Threaded Design, DSP Filtering, Agile/SCRUM  
-<br>
+Wi-Fi Connectivity, Bluetooth Low Energy, Mesh Technologies(Bluetooth Mesh, Thread), M2M(MQTT/CoAP), Smart-Home, Agile/SCRUM, Protocol Design & Implementation
+<br><br>
 `Tools`
-Git, IAR, GCC/GDB, Valgrind, Docker, Balena.io, Wireshark, Arbitrary Waveform Generator, Oscilloscope, Logic Analyser, Spectrum Analyser, Soldering Iron
+Git, IAR, GCC/GDB, Valgrind, Docker, Balena.io, Wireshark, Oscilloscope, Logic Analyser, Soldering Iron, Atlassian, Raspberry Pi, Nordic MCU's
 
 ## Occupation History
 
 ### Dyson
+`2020-2021`
+__Associate Principal Embedded Connectivity Engineer__, Bristol
+<br>
 `2017-2020`
 __Senior Embedded Connectivity Engineer__, Bristol
 
-Currently, I am a senior member of the Connectivity Research Team at Dyson - in this role, I take embedded, connected ideas from research through to prototype, while simultaneously developing the company's connected vision / strategy.
+Currently, I am a senior member of the New Product Software Team at Dyson. In this role, I take ideas for connected hardware from research through to prototype, while simultaneously developing the company's connected vision / strategy.
 
-This involves working with Bluetooth, WiFi and Mesh Technologies across multiple vendor platforms, mainly in Python and C, to architect new product features so that they can be user-trialled, refined and eventually handed over to delivery teams. These embedded prototypes interface with not only cloud platforms and mobile devices, but often with each other, and as such this role has allowed me to become quite expert in M2M/IoT protocols and technologies, such as BLE, MQTT & CoAP, while also utilising my past embedded experience. I have also led development of a rapid protyping platform for the team, built around Raspberry Pi and Docker.
+This involves working with connected technologies like Bluetooth Low Energy, WiFi and some Mesh/Cellular Technologies across multiple vendor platforms, mainly in Python and C, to define, architect and develop new product features for connected devices so that they can be user-trialled, refined and eventually handed over to delivery teams to be put into production. These embedded prototypes interface with not only cloud platforms and mobile devices, but often with each other, and as such this role has allowed me to become quite expert in M2M/IoT protocols and technologies, such as BLE GATT, MQTT & CoAP, while also utilising my past embedded experience.
 
-My role often involves working closely with both technical and non-technical people to ensure that product features and requirements are shaped within the confines of available technology, and to this point, I would often operate as a Systems Engineer / Technical Product Owner to assist in bringing a proposition to realisation, sometimes directing a team of engineers to do so. I also started the use of SCRUM in our team in 2017 which has since evolved into SAFE.
+My role also requires me to be a Tech Lead in the team and this involves working closely with both technical and non-technical people to ensure that product features and requirements are shaped within the confines of available technology, and to this point, I would often operate as a Systems Engineer / Product Owner to assist in bringing a proposition to realisation, sometimes directing a team of engineers to do so. I also started the use of SCRUM in our team in 2017 which has since evolved into SAFE, all operated within the JIRA framework.
 
-This role also requires that I carry out research into new technologies and concepts, and to date, this has allowed me to explore such things as mesh technologies (Thread, Bluetooth Mesh), BlueZ (the ever evolving Linux Bluetooth Stack), LPWAN (LTE-M, NB-IoT), Apple HomeKit and Docker on Embedded Linux platforms. 
+This role also requires that I carry out research into new technologies and concepts, and to date, this has allowed me to explore such things as mesh technologies (Thread, Bluetooth Mesh), BlueZ (the ever evolving Linux Bluetooth Stack), LPWAN (LTE-M, NB-IoT), Smart Home and Docker on Embedded Linux platforms. 
 
 <br>
 `2016-2017`
@@ -66,11 +68,11 @@ I also built lots of peripheral emulators in Python using PyQT and these went on
 `2015-2016`
 __Firmware Lead__, Belfast
 
-In this role, I was Firmware Team Leader (3 members) and sole Firmware Architect for Seed Funded startup based in San Francisco & Belfast. We developed the firmware for an internet connected, automated brewery. We went from paper-based idea to fully shippable product in 12 months.
+In this role, I was Firmware Team Leader (3 members) and sole Firmware "Owner" for a Seed Funded startup based in San Francisco & Belfast. We developed an internet connected, automated brewery, going from paper-based idea to fully shippable product in 13 months.
 
 The entire product firmware was developed in C++ on Particle's WiFi Platform (STM32 ARM Cortex M3 with Broadcom Wi-Fi chip). The firmware controlled and automated the entire brewing process on the Brewbot machine and interfaced with all on board sensors and actuators (Temperature, Flow, Load Cells). The system also communicated with a Cloud Platform (MQTT) and mobile devices (CoAP).
 
-I also maintained the build system (written in Python) and managed the team's workload, releases and milestones (_vaguely_ SCRUM).
+I also maintained the continuous integration build system (written in Python) and managed the team's workload, releases and milestones (_vaguely_ SCRUM).
 
 Additionally, I ran a nano-brewery from our 200L pilot kit, shipping 10 kegs a week!
 
@@ -100,10 +102,10 @@ As a member of the "New Products Group" at Schrader, my job was to design, proto
 
 ## Hobbies & Interests
 
-I am an avid Home Brewer and I run the Homebrew Collab Brewing Club in Bristol where I encourage Home Brewers to come together to share knowledge, techniques and advice (and beer!). Like most curious engineers, I like to marry my job with my hobby and have recently developed a 3G connected, temperature controlled fermentation chamber in my shed.
+I am an avid Home Brewer and I run the Homebrew Collab Brewing Club in Bristol where I encourage Home Brewers to come together to share knowledge, techniques and advice (and beer!). Like most technology minded people, I like to marry my job with my hobby and have recently developed a 3G connected, temperature controlled fermentation chamber in my shed.
 
 I am also a multi-genre music fan and like to attend as many gigs as I can afford.
 
 <!-- ### Footer
 
-Last updated: Nov 2020 -->
+Last updated: May 2021 -->
