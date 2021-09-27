@@ -7,14 +7,13 @@ title: Matt Hazley's CV
 Senior Embedded Engineer specialising in IoT Prototyping
 <div id="webaddress">
 <a href="hello@matthazley.com">hello@matthazley.com</a>
-| <a href="http://matthazley.com">matthazley.com</a>
 | <a href="https://github.com/mhazley">github.com/mhazley</a>
 </div>
 
 
 ## Modus Operandi
 
-I am a confident Embedded Engineer specialising in IoT prototyping and development. I get excited when working with products at conception but also possess the experience and skill to move from prototype to production, considering the full spectrum of requirements from Firmware right through to HMI and UX. I am equally comfortable deep in the code, motivating and directing a team or standing in front of a customer. This is backed up by 11 years of technical experience in small teams, with recent examples of leading, mentoring and overall product ownership.
+I am a confident Embedded Engineer specialising in IoT product development. I get excited when working on projects at conception but also possess the experience and skill to move from prototype to production, considering he full spectrum of product requirements from Firmware, to App & Cloud and right through to HMI and UX. I am equally comfortable deep in the code, motivating and directing a team or standing in front of a customer. This is backed up by 12 years of technical experience in small teams, with recent examples of leading small teams, mentoring and overall product ownership.
 
 ## Education
 
@@ -32,33 +31,38 @@ OpenFX Award for Engineering Software Excellence, *EEECS Faculty, Queen's Univer
 ## Tool Box
 
 `Programming`
-C, Python, C++ (some!)
-<br>
+C, Python, Go, C++ (some!)
+<br><br>
 `Technologies`
-UART/SPI/I2C, TCP/UDP, RTOS(µC, FreeRTOS), M2M(MQTT/CoAP), Protocol Design & Implementation, Wi-Fi Connectivity, Bluetooth Low Energy, Mesh Technologies(Bluetooth Mesh, Thread), Smart-Home, Low Power Design, Multi-Threaded Design, DSP Filtering, Agile/SCRUM  
+Wi-Fi, Bluetooth Low Energy, M2M(MQTT/CoAP/REST), CBOR, Protocol Design & Implementation, UART/SPI/I2C, TCP/IP, LTE-M, Zephyr, Protobuf, Mesh Technologies(Thread, Bluetooth Mesh), Smart-Home (HomeKit, Matter), Multi-Threaded Design, Agile/SCRUM  
 <br>
-`Tools`
-Git, IAR, GCC/GDB, Valgrind, Docker, Balena.io, Wireshark, Arbitrary Waveform Generator, Oscilloscope, Logic Analyser, Spectrum Analyser, Soldering Iron
+`Toolbox`
+Linux, Git, IAR, GCC/GDB, CLion, PyCharm, GoLand, Valgrind, Docker, Balena.io, AWS IoT Core, Wireshark, Oscilloscope, Logic Analyser, Soldering Iron, Atlassian, Raspberry Pi, Nordic MCU's, Yocto (learning)
 
 ## Occupation History
 
 ### Dyson
+`2020-2021`
+__Associate Principle Embedded Connectivity Engineer__, Bristol
+<br>
 `2017-2020`
 __Senior Embedded Connectivity Engineer__, Bristol
 
 Currently, I am a senior member of the Connectivity Research Team at Dyson - in this role, I take embedded, connected ideas from research through to prototype, while simultaneously developing the company's connected vision / strategy.
 
-This involves working with Bluetooth, WiFi and Mesh Technologies across multiple vendor platforms, mainly in Python and C, to architect new product features so that they can be user-trialled, refined and eventually handed over to delivery teams. These embedded prototypes interface with not only cloud platforms and mobile devices, but often with each other, and as such this role has allowed me to become quite expert in M2M/IoT protocols and technologies, such as BLE, MQTT & CoAP, while also utilising my past embedded experience. I have also led development of a rapid protyping platform for the team, built around Raspberry Pi and Docker.
+This involves working with Bluetooth, WiFi, Mesh/Cellular & various sensing technologies, across multiple embedded Linux and microcontroller platforms, mainly in C, Python and Go, to architect new product features so that they can be user-trialled, refined and eventually handed over to delivery teams. These embedded prototypes interface with not only cloud platforms and mobile devices, but often with each other, and as such this role has allowed me to become quite expert in M2M/IoT technologies and architectures, such as BLE, MQTT & CoAP, while also utilising my past embedded experience. I have also led development of a rapid protyping platform for the team, built around Embedded Linux and Docker.
 
-My role often involves working closely with both technical and non-technical people to ensure that product features and requirements are shaped within the confines of available technology, and to this point, I would often operate as a Systems Engineer / Technical Product Owner to assist in bringing a proposition to realisation, sometimes directing a team of engineers to do so. I also started the use of SCRUM in our team in 2017 which has since evolved into SAFE.
+My role involves working closely with both technical and non-technical people to ensure that product features and requirements are shaped within the confines of available technology, and to this point, I would often operate as a Systems Engineer / Technical Product Owner to assist in bringing a proposition to realisation, sometimes directing a team of engineers to do so. I also started the use of SCRUM in our team in 2017 which has since evolved into SAFe, all operated within the JIRA framework.
 
-This role also requires that I carry out research into new technologies and concepts, and to date, this has allowed me to explore such things as mesh technologies (Thread, Bluetooth Mesh), BlueZ (the ever evolving Linux Bluetooth Stack), LPWAN (LTE-M, NB-IoT), Apple HomeKit and Docker on Embedded Linux platforms. 
+This role also requires that I carry out research into new technologies and concepts, and to date, this has allowed me to explore such things as mesh technologies (Thread, Bluetooth Mesh), BlueZ (the ever evolving Linux Bluetooth Stack), LPWAN (LTE-M, NB-IoT), Apple HomeKit, Matter/CHIP and Docker on Embedded Linux platforms. 
 
 <br>
 `2016-2017`
 __Advanced Firmware Engineer__, Malmesbury
 
-In this role, I worked as part of the team developing a robust robotics platform for current and future Dyson products, built in C, on ARM using μC/OS. My role was to develop and maintain all serial communication links between higher level platforms and lower level peripherals which meant both middleware and protocol design. This ultimately led to the adoption of a company wide serial communications protocol, which I led the development on, that is now in most new products.   
+In this role, I worked as part of the team developing a robust robotics platform for current and future Dyson products, built in C, on ARM using μC/RTOS. 
+
+My role was to develop and maintain all serial communication links between higher level platforms and lower level peripherals which meant both middleware and protocol design. This ultimately led to the adoption of a company wide serial communications protocol, which I led the development on, that is now in the majority of sold products.   
 
 I also built lots of peripheral emulators in Python using PyQT and these went on to be widely used and adapted across the embedded teams.
 
@@ -66,11 +70,11 @@ I also built lots of peripheral emulators in Python using PyQT and these went on
 `2015-2016`
 __Firmware Lead__, Belfast
 
-In this role, I was Firmware Team Leader (3 members) and sole Firmware Architect for Seed Funded startup based in San Francisco & Belfast. We developed the firmware for an internet connected, automated brewery. We went from paper-based idea to fully shippable product in 12 months.
+In this role, I was Firmware Team Leader (3 members) and sole Firmware Architect for Seed Funded startup based in San Francisco & Belfast. We developed the firmware for an IoT, automated brewery. We went from paper-based idea to fully shippable product in 12 months.
 
 The entire product firmware was developed in C++ on Particle's WiFi Platform (STM32 ARM Cortex M3 with Broadcom Wi-Fi chip). The firmware controlled and automated the entire brewing process on the Brewbot machine and interfaced with all on board sensors and actuators (Temperature, Flow, Load Cells). The system also communicated with a Cloud Platform (MQTT) and mobile devices (CoAP).
 
-I also maintained the build system (written in Python) and managed the team's workload, releases and milestones (_vaguely_ SCRUM).
+I also maintained the build system (written in Python with some Docker) and managed the team's workload, releases and milestones (_vaguely_ SCRUM).
 
 Additionally, I ran a nano-brewery from our 200L pilot kit, shipping 10 kegs a week!
 
@@ -106,4 +110,4 @@ I am also a multi-genre music fan and like to attend as many gigs as I can affor
 
 <!-- ### Footer
 
-Last updated: Nov 2020 -->
+Last updated: Sept 2021 -->
